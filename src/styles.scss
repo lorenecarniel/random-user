@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+*, button, input {
+    font-family: sans-serif;
+}
+
+body {
+    color: #fefefe;
+    background-color: #212121;
+}
